@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#cal_container{
+    border-radius: 25px;
+    background-color: black;
+    border: 2px solid black;
+    width: 18vw;
+    /* position: absolute;
+    top: 12px;
+    left: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+#row{
+    margin: 3px 3px;
+    padding: 0px 3px;
+}
+#button{
+    padding: 6px 6px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.zero{
+    width: 73px;
+    height: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 11px;
+}
+
+.arithematic_opt{
+    background-color: #ffa700;
+    color: white;
+    font-weight: bold;
+   
+}
+.number{
+    background-color: #363333;
+    color: white;
+    font-weight: bold;
+
+}
+
+.line{
+    width: 70px;
+    height: 2.5px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+#input{
+    margin: 0px 20px;
+    margin-top: 70px;
+    margin-bottom: 6px;
+    border: none;
+    background-color: black;
+    border-color: black;
+}
+.input1{
+    border: none;
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 30px;
+    text-align: right;
+    padding-right: 12px;
+    font-size: 1.3rem;
+}
+
+/* .fonts{
+    background: white;
+    height: 54px;
+    width: 259px;
+} */
